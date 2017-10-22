@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CV Mariano Estevez</title>
+        <meta charset="UTF-8" >
+        <link rel="stylesheet" type="text/css" href="cv.css">
+        <link rel="stylesheet" type="text/css" href="css/unslider.css">
+        <script type="text/javascript" src="js/jquery.min.js"></script>
+        <script type="text/javascript" src="js/unslider.js"></script>
+    </head>
+    <body>
+
+      <div id="menu" name="menu">
+        <ul>
+         <img src="foto.jpg"  >
+            <li>  <a href="#presentacion"  > Presentación</a></li>
+            <li>  <a href="#experiencia"> Experiencia</a></li>
+            <li>  <a href="#formacion"> Formación</a></li>
+            <li>  <a href="#publicaciones"> Publicaciones</a></li>
+            <li>  <a href="#idiomas"> Idiomas</a></li>
+            <li>  <a href="#portfolio"> Portfolio</a></li>
+        </ul>
+      </div>
+
+
+
+      <div class="componente" id="presentacion">
+        <h2  > Quién soy </h2>
+        <h1> Mariano Estevez </h1>
+        <h3> Licenciado en Informática </h3>
+
+        <ul id="datos">
+            <li>Nombre: Mariano Estevez</li>
+            <li>Nacionalidad: Argentina</li>
+            <li>Domicilio: 25 de Mayo 936 - Esquel - Chubut</li>
+            <li>Fecha de nacimiento: 17/08/1990</li>
+            <li>Telefono: +54 2945 15418785</li>
+            <li>Email: Marianoesteveztec@gmail.com</li>
+        </ul>
+      </div>
+
+    <div class="componente" id="experiencia">
+        <h2  >Experiencia   </h2>
+        <h3> Data Miner </h3>
+        <p>Agosto 2013 – Diciembre 2014 GOBIERNO DE LA CIUDAD DE BUENOS AIRES Ministerio de Modernización – DG de información y gobierno abierto</p>
+        <p>Tareas realizadas:</p>
+          <ul>
+            <li>Mantenimiento de la plataforma de datos abiertos.</li>
+            <li>  Análisis de datos.</li>
+            <li>  Visualizaciones</li>
+          </ul>
+          <h3> Referente técnico escolar </h3>
+          <p>Octubre 2017 - Actualidad</p>
+          <p>Acompañamiento de la infraestructura tecnológica y del equipamiento en los establecimientos educativos. Tiene la responsabilidad de producir soluciones informáticas y tecnológicas, supervisar, mantener y hacer funcionar la Plataforma tecnológica institucional (piso tecnológico): servidor, redes, netbooks, de modo que esté operativa para su uso pedagógico por parte de los docentes y alumnos.</p>
+        </div>
+
+        <div class="componente" id="formacion" >
+          <h2 > Formación </h2>
+          <h3>Ingeniería en Informática</h3>
+          <p> Universidad Argentina de la Empresa, 2011 – Actualidad</p>
+          <h3> Licenciatura en Informática</h3>
+          <p>Universidad Argentina de la Empresa, 2011 – 2017</p>
+          <p>Todas las materias aprobadas</p>
+
+        </div>
+
+
+
+        <div class="componente" id="publicaciones" >
+          <h2  > Publicaciones </h2>
+          <h3> Open Data Plan</h3>
+          <p>Governent of the City of Buenos Aires 15 de agosto de 2014
+            Autores: Mariano Estevez, Martin Alalu, Antonio Milanese, Natalia Sampietro </p>
+          <p>This is the outcome of the "open data plan" of the City of Buenos Aires. This
+          work implements the Decreto 478 we wrote in late 2013. This work was
+          arduous and required us to meet every area of government and know each
+          management process. I understand that our greatest contribution to "open
+          data" to make it a long- term policy in the City.</p>
+        </div>
+
+        <div class="componente" id="idiomas">
+          <h2>  Idiomas </h2>
+          <p>Inglés, nivel intermedio. </h3>
+        </div>
+
+        <div class="componente" id="portfolio" >
+          <div class="slider">
+            <h2  > Portfolio (Proximamente)</h2>
+            <ul>
+              <li>CV </li>
+              <li>Movie vs Movie </li>
+              <li>Mapa Interactivo</li>
+              <li>¿Qué quieres ver hoy?</li>
+            </ul>
+          </div>
+
+
+
+        </div>
+
+        <script>
+          jQuery(document).ready(function($) {
+          $('.slider').unslider({
+          arrows: false,
+          autoplay: true
+          });
+        });
+        </script>
+
+    </body>
+</html>
