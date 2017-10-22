@@ -1,0 +1,89 @@
+/*https://color.adobe.com/es/KnotJustNautical-color-theme-10022690/edit/?copy=true&base=1&rule=Custom&selected=3&name=Copia%20de%20KnotJustNautical&mode=rgb&rgbvalues=0.172549,0.243137,0.313726,0.988235,0.262745,0.286275,0.843137,0.854902,0.858824,0.26378982189598804,0.45497698014968,0.53,1,1,1&swatchOrder=0,1,2,3,4*/
+
+h1 {
+    color: #437487;
+}
+
+h2 {
+  color:#2C3E50;
+  border-bottom-style: solid;
+  border-bottom-color: 2C3E50;
+}
+
+h3{
+  color:#FC4349;
+}
+
+body{
+  background: rgb(102, 190, 205);
+}
+
+#datos li{
+  border-width: thin;
+  border-bottom-style: solid;
+  border-bottom-color: #FC4349;
+  font-style: italic;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+
+
+.componente {
+  float: right;
+  width: 71%;
+  background: rgb(192, 234, 241);
+  padding: 0px 18px 0px 8px;
+  margin: 10px 8px 10px 0px;
+  border-radius: 15px;
+}
+
+.componente ul {
+  list-style: none;
+  margin-right: 10px;
+}
+
+#menu{
+  position: fixed;
+  left: 0;
+  z-index: 2000;
+  float: left;
+  width: 25%;
+  float: left;
+  border-top: 10px;
+}
+
+#menu ul{
+  list-style: none;
+
+}
+
+#menu ul li a {
+  display: flex;
+  color:#2C3E50;
+  font-weight: bold;
+  background: rgb(192, 234, 241);
+  padding: 8px 15px;
+  text-decoration: none;
+  border-radius: 15px;
+}
+
+#menu ul li a:hover {
+  display: block;
+  background: #FC4349; /* Cambio el fondo cuando  pase el mouse */
+
+}
+
+#menu li{
+  list-style: none;
+  color:2C3E50;
+  margin: 4px 0px;
+
+
+}
+
+#menu img {
+    width: 100%;
+    border-radius: 15px;
+
+}
